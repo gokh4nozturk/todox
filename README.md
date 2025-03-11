@@ -1,4 +1,4 @@
-# Todo List CLI
+# Todox
 
 A simple and efficient command-line todo list manager written in Rust.
 
@@ -13,32 +13,32 @@ A simple and efficient command-line todo list manager written in Rust.
 
 ## Installation
 
-You can install the todo list CLI using cargo:
+You can install todox using cargo:
 
 ```bash
-cargo install to-do-list-cli
+cargo install todox
 ```
 
 ## Usage
 
 ### Add a new task
 ```bash
-todo add "Learn Rust programming"
+todox add "Learn Rust programming"
 ```
 
 ### List all tasks
 ```bash
-todo list
+todox list
 ```
 
 ### Mark a task as done
 ```bash
-todo done 1
+todox done 1
 ```
 
 ### Remove a task
 ```bash
-todo remove 1
+todox remove 1
 ```
 
 ## Development
@@ -46,8 +46,8 @@ todo remove 1
 To build from source:
 
 ```bash
-git clone https://github.com/gokh4nozturk/to-do-list-cli
-cd to-do-list-cli
+git clone https://github.com/gokh4nozturk/todox
+cd todox
 cargo build --release
 ```
 

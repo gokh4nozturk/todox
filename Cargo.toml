@@ -1,11 +1,11 @@
 [package]
-name = "to-do-list-cli"
-version = "0.1.0"
+name = "todox"
+version = "0.0.1"
 edition = "2021"
 authors = ["Gokhan Ozturk"]
 description = "A simple CLI todo list application"
 license = "MIT"
-repository = "https://github.com/gokh4nozturk/to-do-list-cli"
+repository = "https://github.com/gokh4nozturk/todox"
 keywords = ["cli", "todo", "task", "productivity"]
 categories = ["command-line-utilities"]
 readme = "README.md"

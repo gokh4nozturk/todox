@@ -1,9 +1,9 @@
+use chrono::{DateTime, Local};
 use clap::{Parser, Subcommand};
 use colored::*;
 use serde::{Deserialize, Serialize};
 use std::fs;
 use std::path::PathBuf;
-use chrono::{DateTime, Local};
 
 #[derive(Debug, Serialize, Deserialize)]
 struct Todo {
@@ -14,7 +14,7 @@ struct Todo {
 }
 
 #[derive(Parser)]
-#[command(name = "todo")]
+#[command(name = "todox")]
 #[command(about = "A simple CLI todo list manager", long_about = None)]
 struct Cli {
     #[command(subcommand)]
